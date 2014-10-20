@@ -1,25 +1,10 @@
-# Bootstrap-for-ember-cli
+# Bootstrap for Ember-CLI
 
-This README outlines the details of collaborating on this Ember addon.
+Implementation of `bootstrap-for-ember`/`ember-cli-bootstrap` built with the latest addon tooling.
 
-## Installation
+Features:
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+ * ES6 modules for each bootstrap component
+ * component templates use filesystem for full compilation (no more handlebars runtime requirement)
+ * no static tracking for bootstrap
+ * pure javascript, transition away from coffeescript
